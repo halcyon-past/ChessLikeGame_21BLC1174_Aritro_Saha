@@ -1,0 +1,33 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply custom dark theme styling */
+html {
+  @apply bg-gray-900 text-gray-200;
+}
+
+body {
+  @apply bg-gray-900 text-gray-200;
+}
+
+.game-page {
+  @apply bg-gray-900 text-gray-200;
+}
+
+.header {
+  @apply bg-gray-800 text-white;
+}
+
+.sidebar {
+  @apply bg-gray-800 text-gray-200;
+}
+
+.cell {
+  @apply bg-gray-700 text-white;
+}
+
+.game-log {
+  @apply bg-gray-800 text-gray-200;
+}
